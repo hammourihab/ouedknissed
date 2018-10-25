@@ -1,0 +1,164 @@
+/**
+ * Google Source Sans Pro font | Roboto
+ */
+@import url("https://fonts.googleapis.com/css?family=Roboto:500|Source+Sans+Pro:600");
+body {
+  font-family: 'Roboto', sans-serif !important;
+  overflow-y: scroll; }
+
+/** 
+ * Colors
+ */
+.primary {
+  color: #F96913 !important; }
+
+.primary-light {
+  color: !important; }
+
+.primary-lighter {
+  color: !important; }
+
+.secondary {
+  color: #57ADE0 !important; }
+
+/**
+ * Backgrounds
+ */
+.primary-bg {
+  background-color: #F96913 !important; }
+
+.primary-light-bg {
+  background-color: !important; }
+
+.primary-lighter-bg {
+  background-color: !important; }
+
+.secondary-bg {
+  background-color: #57ADE0 !important; }
+
+/**
+ * Navigation
+ */
+.menu {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important; }
+
+/** 
+ * Footer
+ */
+/**
+ * Sticky footer
+ */
+div.pusher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+
+.pusher > .footer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; }
+
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+      user-select: none; }
+
+.pace-inactive {
+  display: none; }
+
+.pace .pace-progress {
+  background: #F96913;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 5px; }
+
+@media only screen and (min-width: 0px) and (max-width: 1023px) {
+  .pace .pace-progress {
+    background: #F96913;
+    height: 3px; } }
+/** 
+ * Reponsive media queries
+ */
+/** 
+ * Mobile
+ */
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+  .tablet-only,
+  .computer-only,
+  .x-large-only,
+  .large-xlarge-only,
+  #menu,
+  .tab-large-only {
+    display: none !important; } }
+/**
+ * Tablet
+ */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .mobile-only,
+  .computer-only,
+  .x-large-only,
+  .large-xlarge-only,
+  #menu {
+    display: none !important; } }
+/**
+ * Computer|Large screens
+ */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .mobile-only,
+  .tablet-only,
+  .x-large-only,
+  .mobile-tab-only,
+  #small_screens_sidebar,
+  #small_screens_menu {
+    display: none !important; } }
+/** 
+ * Extra large screen
+ */
+@media only screen and (min-width: 1200px) {
+  .mobile-only,
+  .tablet-only,
+  .computer-only,
+  .mobile-tab-only,
+  #small_screens_sidebar,
+  #small_screens_menu {
+    display: none !important; } }
+/**
+ * Large screen and x-large screen only
+ */
+@media only screen and (min-width: 992px) {
+  .mobile-only,
+  .tablet-only,
+  .computer-only,
+  .x-large-only,
+  .mobile-tab-only,
+  #small_screens_sidebar,
+  #small_screens_menu {
+    display: none; } }
+/**
+	* Tablet and Large screen only
+	*/
+@media only screen and (min-width: 768px) {
+  .mobile-only,
+  .mobile-tab-only {
+    display: none; } }
+/**
+ * Mobile and Tablet only
+ */
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+  .computer-only,
+  .x-large-only,
+  .large-xlarge-only,
+  #menu {
+    display: none !important; } }

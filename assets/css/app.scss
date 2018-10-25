@@ -1,0 +1,219 @@
+/**
+ * Google Source Sans Pro font | Roboto
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:500|Source+Sans+Pro:600');
+
+body {
+	font-family: 'Roboto', sans-serif !important;
+	overflow-y: scroll;
+}
+
+$colors: (primary: #F96913, secondary: #57ADE0);
+
+
+/** 
+ * Colors
+ */
+.primary {
+	color: map-get($colors, primary) !important;
+}
+
+.primary-light {
+	color: map-get($colors, primary-light) !important;
+}
+
+.primary-lighter {
+	color: map-get($colors, primary-lighter) !important;
+}
+
+.secondary {
+	color: map-get($colors, secondary) !important;
+}
+
+/**
+ * Backgrounds
+ */
+.primary-bg {
+	background-color: map-get($colors, primary) !important;
+}
+
+.primary-light-bg {
+	background-color: map-get($colors, primary-light) !important;
+}
+
+.primary-lighter-bg {
+	background-color: map-get($colors, primary-lighter) !important;
+}
+
+.secondary-bg {
+	background-color: map-get($colors, secondary) !important;
+}
+
+/**
+ * Navigation
+ */
+@import 'navigation';
+
+/** 
+ * Footer
+ */
+@import 'footer';
+
+/**
+ * Sticky footer
+ */
+div.pusher {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
+.pusher>.footer {
+	flex: 1;
+}
+
+
+
+
+
+.pace {
+	-webkit-pointer-events: none;
+	pointer-events: none;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+.pace-inactive {
+	display: none;
+}
+
+.pace .pace-progress {
+	background: map-get($colors, primary);
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	right: 100%;
+	width: 100%;
+	height: 5px;
+}
+
+@media only screen and (min-width:0px) and (max-width: 1023px) {
+	.pace .pace-progress {
+		background: map-get($colors, primary);
+		height: 3px;
+	}
+}
+
+/** 
+ * Reponsive media queries
+ */
+
+/** 
+ * Mobile
+ */
+
+@media only screen and (min-width: 0px) and (max-width: 767px) {
+
+	.tablet-only,
+	.computer-only,
+	.x-large-only,
+	.large-xlarge-only,
+	#menu,
+	.tab-large-only {
+		display: none !important;
+	}
+}
+
+/**
+ * Tablet
+ */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.mobile-only,
+	.computer-only,
+	.x-large-only,
+	.large-xlarge-only,
+	#menu,
+		{
+		display: none !important;
+	}
+}
+
+/**
+ * Computer|Large screens
+ */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+	.mobile-only,
+	.tablet-only,
+	.x-large-only,
+	.mobile-tab-only,
+	#small_screens_sidebar,
+	#small_screens_menu {
+		display: none !important;
+	}
+}
+
+/** 
+ * Extra large screen
+ */
+
+@media only screen and (min-width: 1200px) {
+
+	.mobile-only,
+	.tablet-only,
+	.computer-only,
+	.mobile-tab-only,
+	#small_screens_sidebar,
+	#small_screens_menu {
+		display: none !important;
+	}
+}
+
+/**
+ * Large screen and x-large screen only
+ */
+
+@media only screen and (min-width: 992px) {
+
+	.mobile-only,
+	.tablet-only,
+	.computer-only,
+	.x-large-only,
+	.mobile-tab-only,
+	#small_screens_sidebar,
+	#small_screens_menu {
+		display: none;
+	}
+}
+
+/**
+	* Tablet and Large screen only
+	*/
+
+@media only screen and (min-width: 768px) {
+
+	.mobile-only,
+	.mobile-tab-only {
+		display: none;
+	}
+}
+
+/**
+ * Mobile and Tablet only
+ */
+
+@media only screen and (min-width:0px) and (max-width: 992px) {
+
+	.computer-only,
+	.x-large-only,
+	.large-xlarge-only,
+	#menu {
+		display: none !important;
+	}
+}
