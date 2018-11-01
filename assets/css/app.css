@@ -37,6 +37,13 @@ body {
   background-color: #57ADE0 !important; }
 
 /**
+ * Buttons
+ */
+.ouedknissed-primary-btn {
+  background-color: #F96913 !important;
+  color: white !important; }
+
+/**
  * Navigation
  */
 .menu {
