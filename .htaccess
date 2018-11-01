@@ -1,0 +1,16 @@
+Options +FollowSymLinks
+IndexIgnore *
+
+
+
+<IfModule mod_rewrite.c>
+# AllowOverride FileInfo
+RewriteEngine on
+# Use: RewriteBase /<subdirectory> if installed in subdirectory
+RewriteBase /
+
+# CodeIgniter pages with their own controllers 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ index.php [L]
+
+</IfModule>
