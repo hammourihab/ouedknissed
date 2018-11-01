@@ -1,0 +1,11 @@
+{
+	"description": "Re-inventing a new UI/UX for ouedkniss",
+	"name": "ouedknissed",
+	"type": "website",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.3.7",
+		"vlucas/phpdotenv": "2.5.1",
+		"jenssegers/date": "3.4.0"
+	}
+}
