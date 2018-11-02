@@ -18,17 +18,12 @@ $colors: (primary: #F96913, secondary: #57ADE0);
 .primary {
 	color: map-get($colors, primary) !important;
 }
-
-.primary-light {
-	color: map-get($colors, primary-light) !important;
-}
-
-.primary-lighter {
-	color: map-get($colors, primary-lighter) !important;
-}
-
 .secondary {
 	color: map-get($colors, secondary) !important;
+}
+.white
+{
+	color: white !important;
 }
 
 /**
@@ -36,14 +31,6 @@ $colors: (primary: #F96913, secondary: #57ADE0);
  */
 .primary-bg {
 	background-color: map-get($colors, primary) !important;
-}
-
-.primary-light-bg {
-	background-color: map-get($colors, primary-light) !important;
-}
-
-.primary-lighter-bg {
-	background-color: map-get($colors, primary-lighter) !important;
 }
 
 .secondary-bg {

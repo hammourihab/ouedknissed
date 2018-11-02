@@ -12,26 +12,17 @@ body {
 .primary {
   color: #F96913 !important; }
 
-.primary-light {
-  color: !important; }
-
-.primary-lighter {
-  color: !important; }
-
 .secondary {
   color: #57ADE0 !important; }
+
+.white {
+  color: white !important; }
 
 /**
  * Backgrounds
  */
-.primary-bg {
+.primary-bg, footer.ui.vertical.footer {
   background-color: #F96913 !important; }
-
-.primary-light-bg {
-  background-color: !important; }
-
-.primary-lighter-bg {
-  background-color: !important; }
 
 .secondary-bg {
   background-color: #57ADE0 !important; }
