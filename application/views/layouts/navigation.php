@@ -8,6 +8,10 @@
 
 
 <!-- Large screens menu -->
+
+<!-- So the idea is, We sill have a hidden search bar in the menu, one we pass the header masthead segment we will show it, it will be cool here -->
+<!-- The Stick side bar will be after the masthead --> 
+<!-- And thanks for stopping me from talking ---> 
 <div class="ui top fixed borderless tiny menu" id="menu">
 	<div class="header item">
 		<img src="<?= base_url('assets/images/logos/ouedknissed-200-50.png'); ?>" class="ui small image" alt="<?= getenv('APP_NAME'); ?>">
@@ -42,6 +46,31 @@
 		</div>
 	</div>
 </div>
+<!-- A secondary menu would really look great -->
+<div class="ui stackable secondary menu margin-top" id="large_screens_secondary_menu">
+	<div class="item">
+			<div class="ui simple dropdown item">
+			Catégories
+				<i class="dropdown icon"></i>
+				<div class="menu">
+					<?php for($i=0;$i<=10;$i++): ?>
+						<a href="#" class="item">Random category</a>
+					<?php endfor; ?>
+				</div>
+			</div>
+	</div>
+
+	<div class="right menu">
+		<div class="item">
+			<a href="#" class="ui button ouedknissed-secondary-btn"><i class="sign in icon"></i> Se connecter</a>
+		</div>
+		<div class="item">
+			<a href="#" class="ui button ouedknissed-primary-btn"><i class="edit outline icon"></i> Déposer annonce</a>
+		</div>
+	</div>
+</div>
+
+
 <!-- Small screens menu -->
 <div class="ui top fixed borderless tiny menu" id="small_screens_menu">
 	<div class="header item">
