@@ -10,16 +10,16 @@
 <!-- Large screens menu -->
 <div class="ui top fixed borderless tiny menu" id="menu">
 	<div class="header item">
-		<img src="<?= base_url('assets/images/logos/ouedknissed-200-50.png'); ?>" class="ui small image">
+		<img src="<?= base_url('assets/images/logos/ouedknissed-200-50.png'); ?>" class="ui small image" alt="<?= getenv('APP_NAME'); ?>">
 	</div>
 	<a href="#" class="item">
-		<img src="<?= base_url('assets/images/additional/autobip.png'); ?>" class="ui tiny image">
+		<img src="<?= base_url('assets/images/additional/autobip.png'); ?>" class="ui tiny image" alt="<?= getenv('APP_NAME'); ?>">
 	</a>
 	<a href="#" class="item">
-		<img src="<?= base_url('assets/images/additional/cvite.png'); ?>" class="ui tiny image">
+		<img src="<?= base_url('assets/images/additional/cvite.png'); ?>" class="ui tiny image" alt="<?= getenv('APP_NAME'); ?>">
 	</a>
 	<a class="item">
-		<img src="<?= base_url('assets/images/additional/forum_autobip.png'); ?>" class="ui tiny image">
+		<img src="<?= base_url('assets/images/additional/forum_autobip.png'); ?>" class="ui tiny image" alt="<?= getenv('APP_NAME'); ?>">
 	</a>
 	<div class="right menu">
 		<div class="item">
