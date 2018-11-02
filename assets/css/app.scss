@@ -66,6 +66,18 @@ $colors: (primary: #F96913, secondary: #57ADE0);
  */
 @import 'footer';
 
+
+/**
+ * Trying to keep my sass clean so 
+ */ 
+
+
+ /**
+	*  Margins
+	*/ 
+ @import 'margins';
+
+
 /**
  * Sticky footer
  */
@@ -122,12 +134,12 @@ div.pusher {
  */
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
-
 	.tablet-only,
 	.computer-only,
 	.x-large-only,
 	.large-xlarge-only,
 	#menu,
+	#large_screens_secondary_menu,
 	.tab-large-only {
 		display: none !important;
 	}
@@ -144,6 +156,7 @@ div.pusher {
 	.x-large-only,
 	.large-xlarge-only,
 	#menu,
+	#large_screens_secondary_menu,
 		{
 		display: none !important;
 	}
@@ -219,7 +232,9 @@ div.pusher {
 	.computer-only,
 	.x-large-only,
 	.large-xlarge-only,
-	#menu {
+	#menu,
+	#large_screens_secondary_menu
+	 {
 		display: none !important;
 	}
 }

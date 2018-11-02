@@ -43,16 +43,42 @@ body {
   background-color: #F96913 !important;
   color: white !important; }
 
+.ouedknissed-secondary-btn {
+  background-color: #57ADE0 !important;
+  color: white !important; }
+
 /**
  * Navigation
  */
 .menu {
   -webkit-box-shadow: none !important;
-          box-shadow: none !important; }
+          box-shadow: none !important;
+  border-bottom: none !important; }
 
 /** 
  * Footer
  */
+/**
+ * Trying to keep my sass clean so 
+ */
+ /**
+	*  Margins
+	*/
+/**
+ * Applying a DRY SCSS lol 
+ */
+ /**
+	* Basically its a semantic UI thing, that you have to set the margin-top with a default level from the menu
+	*/
+.margin-top {
+  margin-top: 10vh !important; }
+
+.margin-x-top {
+  margin-top: 25vh !important; }
+
+.margin-bottom {
+  margin-bottom: 10vh !important; }
+
 /**
  * Sticky footer
  */
@@ -107,6 +133,7 @@ div.pusher {
   .x-large-only,
   .large-xlarge-only,
   #menu,
+  #large_screens_secondary_menu,
   .tab-large-only {
     display: none !important; } }
 /**
@@ -117,7 +144,8 @@ div.pusher {
   .computer-only,
   .x-large-only,
   .large-xlarge-only,
-  #menu {
+  #menu,
+  #large_screens_secondary_menu {
     display: none !important; } }
 /**
  * Computer|Large screens
@@ -167,5 +195,6 @@ div.pusher {
   .computer-only,
   .x-large-only,
   .large-xlarge-only,
-  #menu {
+  #menu,
+  #large_screens_secondary_menu {
     display: none !important; } }
