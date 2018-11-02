@@ -11,3 +11,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |	https://codeigniter.com/user_guide/general/hooks.html
 |
 */
+
+/**
+ * Loading DotEnv in a pre_system hook 
+ */
+
+
+$hook['pre_system'] = function () {
+    $dotenv = new Dotenv\Dotenv(BASEPATH . '../');
+    $dotenv->load();
+};
