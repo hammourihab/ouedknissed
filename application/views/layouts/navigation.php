@@ -12,6 +12,15 @@
 	<div class="header item">
 		<img src="<?= base_url('assets/images/logos/ouedknissed-200-50.png'); ?>" class="ui small image">
 	</div>
+	<a href="#" class="item">
+		<img src="<?= base_url('assets/images/additional/autobip.png'); ?>" class="ui tiny image">
+	</a>
+	<a href="#" class="item">
+		<img src="<?= base_url('assets/images/additional/cvite.png'); ?>" class="ui tiny image">
+	</a>
+	<a class="item">
+		<img src="<?= base_url('assets/images/additional/forum_autobip.png'); ?>" class="ui tiny image">
+	</a>
 	<div class="right menu">
 		<div class="item">
 			<a href="" class="ui button ouedknissed-primary-btn"> <i class="paper plane icon"></i> Contact</a>
