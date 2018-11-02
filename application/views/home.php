@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Ouedknissed.com| Re-inventing a new UI/UX for ouedkniss</title>
 	<link rel="icon" href="<?= base_url('/assets/images/favicon.ico'); ?>">
@@ -26,11 +27,11 @@
 	<meta property="og:description" content="Re-inventing a new UI/UX for ouedkniss">
 	<meta property="og:site_name" content="ouedknissed" />
 	<meta property="fb:app_id" content="">
-	
+
 	<meta itemprop="name" content="ouedknissed">
 	<meta itemprop="description" content="Re-inventing a new UI/UX for ouedkniss">
 	<meta itemprop="image" content="">
-	
+
 	<meta name="twitter:card" content="">
 	<meta name="twitter:site" content="<?= base_url(); ?>">
 	<meta name="twitter:title" content="Ouedknissed.com|">
@@ -42,6 +43,7 @@
 	<link rel="stylesheet" href="<?= base_url('/assets/css/owl.carousel.min.css'); ?>">
 	<link rel="stylesheet" href="<?= base_url('/assets/css/owl.theme.default.min.css'); ?>">
 	<link rel="stylesheet" href="<?= base_url('/assets/css/app.css'); ?>">
+	<link rel="stylesheet" href="<?= base_url('/assets/css/home.css'); ?>">
 	<script src="<?= base_url('/assets/js/jquery-3.2.1.min.js'); ?>" type='text/javascript'></script>
 	<script src="<?= base_url('/assets/semantic/semantic.min.js'); ?>" type='text/javascript'></script>
 	<script src="<?= base_url('/assets/js/owl.carousel.min.js'); ?>" type="text/javascript"></script>
@@ -49,4 +51,19 @@
 </head>
 
 <body>
-	<?php $this->load->view('layouts/navigation'); ?>	
+	<?php $this->load->view('layouts/navigation'); ?>
+
+	<header class="ui vertical masthead basic segment header margin-bottom">
+		<div class="ui stackable center aligned middle aligned grid margin-top">
+			<div class="ui one column row">
+				<div class="ui sixteen wide column">
+					<form>
+						<div class="ui icon input">
+							<input type="text" placeholder="Search for Rent, Appartements, villa's..etc" id="header-search-input" class="prompt elm-input">
+							<i class="circular search link icon primary"></i>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
