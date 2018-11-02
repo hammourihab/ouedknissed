@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
 /*
 |--------------------------------------------------------------------------
 | Base Site URL
@@ -23,6 +24,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
+
+
+/**
+ * Composer autoload for Dotenv
+ * So basically with the hooks and so of codeigniter i couldn't load the Dotenv with it because the config is loaded by priority in codeigniter, that's the simplest solution i could come up with 
+ */
+
+require APPPATH . 'vendor/autoload.php';
+
+$dotenv = new Dotenv\Dotenv(BASEPATH . '../');
+$dotenv->load();
+
+
+
 $config['base_url'] = 'http://ouedknissed.test/';
 
 /*
