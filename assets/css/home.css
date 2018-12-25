@@ -1,12 +1,14 @@
 header.ui.vertical.masthead.basic.segment.header {
   height: 40vh;
-  background-color: #F96913; }
+  background: url(../images/backgrounds/shes_just_hot.jpeg) no-repeat fixed center !important;
+  background-size: cover !important; }
 
 /** 
  * Mobile
  */
 @media only screen and (min-width: 0px) and (max-width: 768px) {
   #header-search-input {
+    margin-top: 20vh !important;
     width: 80vw !important; }
 
   header.ui.vertical.masthead.basic.segment.header {
