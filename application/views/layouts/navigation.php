@@ -53,9 +53,48 @@
 			Catégories
 				<i class="dropdown icon"></i>
 				<div class="menu">
-					<?php for($i=0;$i<=10;$i++): ?>
-						<a href="#" class="item">Random category</a>
-					<?php endfor; ?>
+					<div class="item">
+						<a class="ui link"> <i class="mobile big icon"></i> téléphones</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="car big icon"></i> véhicules</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="building big icon"></i> Immobilier</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="camera big icon"></i> Electronique and électroménager</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class='briefcase big icon'></i> Emploi</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="laptop big icon"></i> Informatique</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="tags big icon"></i> Mode and beauté</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="wrench big icon"></i> Services</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="plane big icon"></i> Voyages</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="home big icon"></i> Maison et fournitures</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="bicycle big icon"></i> Loisirs & Divertissements</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="cut big icon"></i> Matériaux & Equipement</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class="gift big icon"></i> Divers</a>
+					</div>
+					<div class="item">
+						<a class="ui link"> <i class='shop big icon'></i> <span style="background-color: #39d412;color:white;padding:5px 5px 5px 5px;border:1px solid #3daf20;">STORES</span> Boutiques</a>
+					</div>
 				</div>
 			</div>
 	</div>
